@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stop propagation</title>
+    <style>
+        div {
+            padding: 50px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color:gold" onclick="jaune()">
+        Parent
+        <div style="background-color:teal" onclick="vert()">
+            Fils
+        </div>
+    </div>
+
+    <div style="background-color:gold" onclick="jaune()" >
+        Parent
+        <div style="background-color:teal" onclick="vert(event)">
+        Fils
+        </div>
+        </div>
+        
+    <script src="exo6.js"></script>
+</body>
+
+</html>

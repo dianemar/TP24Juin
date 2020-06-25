@@ -1,0 +1,63 @@
+header, nav, article, aside{
+        display: block;
+}
+
+header{
+        text-align: center;
+        background-color: #E8EFF7;
+        margin-top: -20px;
+}
+
+nav {
+        float:left;
+        width:20%;
+        height: 100%;
+}    
+
+aside{   
+        float:right;
+        width:20%;
+        height: 100%;
+}
+
+article{
+    margin-top: 0px;
+        width:100%;
+}
+
+body{
+    margin:0;
+}
+
+h1{
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+h2{
+    margin:0;
+    font-size: medium;
+}
+
+h3{
+    background-color: #E8EFF7;
+    color: #385CBA;
+    font-size: medium;
+    margin:0;
+}
+
+h4{
+    display:inline;
+}
+
+.corps{
+    height: 100%;
+    max-width: 80%;
+    margin-top: 0px;
+    overflow: auto;
+}
+
+.marge{
+    margin-left: 50px;
+}

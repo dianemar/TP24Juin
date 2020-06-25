@@ -1,0 +1,24 @@
+h1{
+    font-size: x-large;
+    margin-bottom: 0;
+}
+
+h2{
+    margin:0;
+    font-size: medium;
+}
+
+h3{
+    background-color: #E8EFF7;
+    color: #385CBA;
+    font-size: medium;
+    margin:0;
+}
+
+h4{
+    display:inline;
+}
+
+#entete{
+    background-color: #E8EFF7;
+}
